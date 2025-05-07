@@ -1,5 +1,7 @@
 # Bilibili API MCP Server
 
+[![smithery badge](https://smithery.ai/badge/@chenmingkong/bilibili-mcp-server)](https://smithery.ai/server/@chenmingkong/bilibili-mcp-server)
+
 用于哔哩哔哩 API 的 MCP（模型上下文协议）服务器，支持多种操作。
 
 ## 环境要求
@@ -7,6 +9,16 @@
 - [uv](https://docs.astral.sh/uv/) - 一个项目管理工具，可以很方便管理依赖。
 
 ## 使用方法
+
+### Installing via Smithery
+
+To install bilibili-mcp-server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@chenmingkong/bilibili-mcp-server):
+
+```bash
+npx -y @smithery/cli install @chenmingkong/bilibili-mcp-server --client claude
+```
+
+### 安装步骤
 
 1. clone 本项目
 
